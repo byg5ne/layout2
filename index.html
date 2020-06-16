@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: lightseagreen;
+            padding: 20px;
+            text-align: left;
+            margin: 0;
+            font-size: 30px;
+            color: white;
+        }
+
+        #summer { 
+            overflow: hidden;
+            margin-top: 10px;
+            margin: 0 auto;
+            width: 960px;
+            text-align: left;
+        }
+
+        #summer::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .img {
+            float: left;
+            width: 100%;
+            padding-top: 20px;
+            border: 1px solid white;
+            box-sizing: border-box;
+        }
+        
+        #right {
+             float: right;
+              width: 60%; 
+              padding-top: 20px; 
+              }
+
+        #right h3 { font-size: 30px; padding-bottom: 20px;}
+  
+
+    </style>
+</head>
+<body>
+    <div class="header">Summer Holiday</div>
+
+    <div id="summer">
+        <div class="img" ><img src="./img_5terre.jpg" alt="">
+            <div id="right">
+            <h3>5 Terre</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="img"><img src="./img_monterosso.jpg" alt="">
+            <div id="right">
+            <h3>Monterosso</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+        </div>
+        <div class="img"><img src="./img_vernazza.jpg" alt="">
+            <div id="right">
+            <h3>Vernazza</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+        </div>
+        <div class="img"><img src="./img_manarola.jpg" alt="">
+            <div id="right">
+            <h3>Manarola</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+        </div>
+        <div class="img"><img src="./img_corniglia.jpg" alt="">
+            <div id="right">
+            <h3>Corniglia</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+        </div>
+        <div class="img"><img src="./img_riomaggiore.jpg" alt="">
+            <div id="right">
+            <h3>Riomaggiore</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
